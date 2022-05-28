@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>Vim for mathematicians</title>
+
+  
+  <meta name="author" content="Leadro Chiarini">
+  
+
+  <meta name="description" content="Writing latex can be much faster">
+
+  
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="Leandro Chiarini" href="http://localhost:4000/feed.xml">
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  <meta property="og:site_name" content="Leandro Chiarini">
+  <meta property="og:title" content="Vim for mathematicians">
+  <meta property="og:description" content="Writing latex can be much faster">
+
+  
+  <meta property="og:image" content="http://localhost:4000/assets/img/profile.jpg">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Leadro Chiarini">
+  <meta property="og:article:published_time" content="2022-05-29T00:37:00+02:00">
+  <meta property="og:url" content="http://localhost:4000/2022/05/29/Vim-for-mathematicians.html">
+  <link rel="canonical" href="http://localhost:4000/2022/05/29/Vim-for-mathematicians.html">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@L_Chiarini">
+  <meta name="twitter:creator" content="@L_Chiarini">
+
+  <meta property="twitter:title" content="Vim for mathematicians">
+  <meta property="twitter:description" content="Writing latex can be much faster">
+
+  
+  <meta name="twitter:image" content="http://localhost:4000/assets/img/profile.jpg">
+  
+
+  
+
+
+  
+
+  
+
+</head>
+
+
+<body>
+
+  
+
+
+  <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">Leandro Chiarini</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.lchiarini.com">Main page</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/research">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://drive.google.com/file/d/1r_Ihx2bGK9nZeuEYHjQRnRQjPt7j6Am4/view?usp=sharing">Full CV</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog">Blog</a>
+          </li></ul>
+  </div>
+
+  
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="http://localhost:4000/">
+          <img alt="Navigation bar avatar" class="avatar-img" src="/assets/img/profile.jpg" />
+        </a>
+      </div>
+    </div>
+  
+
+</nav>
+
+
+  <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="post-heading">
+          <h1>Vim for mathematicians</h1>
+          
+            
+              <h2 class="post-subheading">Writing latex can be much faster</h2>
+            
+          
+
+          
+            <span class="post-meta">Posted on May 29, 2022</span>
+            
+            
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+
+
+
+
+
+<div class=" container-md ">
+  <div class="row">
+    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+
+      
+
+      
+
+      <article role="main" class="blog-post">
+        <h1 id="a-word-of-warning">A word of warning</h1>
+
+<p>Perhaps the most debatable part of this article is which text editor to use,
+there are several other very efficient text editor such as
+<a href="https://atom.io/">atom</a>, <a href="https://www.overleaf.com/">overleaf</a>,
+<a href="https://www.gnu.org/software/emacs/">eMacs</a> (which is way more than a text
+editor). All of these have premium features, such as git integration, either out
+of the box or via some plugin.</p>
+
+<h1 id="vim-what-does-it-try-to-solve">vim: What does it try to solve?</h1>
+
+<p>Writing code, even if it is just latex, involve a lot of repetition. For
+instance, we often take time to write long commands that not only become
+difficult to read, but also take a awful long time to write. One can define
+their own commands in latex to reduce the burden, but often you might not agree
+with your co-authors in which is the best version of said commands and that just
+becomes a nuisance.</p>
+
+<p>Before I explain how vim works, I will explain how it doesn’t.
+works. You know how in Microsoft word (and most other text editors)</p>
+<ul>
+  <li>You can always move by using the arrow keys or the mouse</li>
+  <li>You can always insert text by pressing any character</li>
+  <li>You can always either arrow+Shift keys or drag the mouse to select text.</li>
+  <li>You can always click on the menus at the top to invoke a special function</li>
+</ul>
+
+<p>Well, vim has a different approach to it. Instead, you have normal, insert,
+visual and commands modes to do these tasks to do these tasks respectively.
+You can go from a mode to another by certain combinations of key presses. For
+instance, if you are in normal mode, you can enter insert mode by pressing the
+key “i” and you can return to the normal mode by pressing the Esc key.</p>
+
+<h1 id="vim-why-should-you-care">vim: Why should you care?</h1>
+
+<p>The quick answer is: vim let’s you automatize a lot of the boring parts of
+writing latex files. Let’s just give a few examples.</p>
+
+<p>This separation into modes I mention in the previous section might seen like
+madness at first. But the idea is to use the keyboard more effectively. Because
+each key behaves in a different way depending in the mode you are on. For
+instance, in insert mode, pressing the key “i” will insert the character “i” in
+your file. But in normal mode, this puts you in insert mode instead.</p>
+
+<p>And why is this any more effective? When you are in normal mode, which could be
+read as “movement mode” as well, this means that your whole keyboard to do other
+things rather then insert. For example:</p>
+<ol>
+  <li>Go from moving around in the file (say go to to the next paragraph,
+or to the location of the last error that appeared during latex compilation)</li>
+  <li>Make bulk changes in your file (like turn
+the current paragraph in your latex file into a comment).</li>
+</ol>
+
+<p>Maybe you are not convinced yet. Here is the thing, vim lets you change the
+behaviour of absolutely any of its default actions when pressing a key of
+combination of keys or to define any new combinations. This means you can make
+the whole program behave exactly like you want! Either by using its basic
+version, by changing some presets yourself or by adding some plugins you can
+make it do very specific behaviour in situations that you face hundreds of times
+when writing latex.</p>
+
+<p>Here are few example, specially when working of rough drafts of files, I use a
+lot of the <code class="language-plaintext highlighter-rouge">align*</code> environment in latex, with as many lines as possible so it is
+easy for me to review later. I changed the default behaviour of my vim to
+whenever I am in a situation like this</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>\begin{align*}
+	a 
+&amp;=
+	a-b+b | &lt;------- CURSOR RIGHT HERE
+\end{align*}
+</code></pre></div></div>
+<p>if I press the <code class="language-plaintext highlighter-rouge">Y</code> i.e <code class="language-plaintext highlighter-rouge">Shift+Y</code>, my vim will automatically copy the contents of
+the last line of the align* environment and copy it bellow. That is, the content
+of the file not becomes this:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>\begin{align*}
+	a 
+&amp;=
+	a-b+b
+\\&amp;=
+	a-b+b | &lt;------- CURSOR RIGHT HERE
+\end{align*}
+</code></pre></div></div>
+<p>Notice that it even knows that you now need a \ at the beginning of the  new
+line.</p>
+
+<p>This seems useless, but when each line of latex is composed by multiple lines of
+integrals and other things, this is much quicker than either holding down shift
+and moving around, copying and pasting making the new changes and repeating the
+exact same procedure. This can be done without the help of any plugins.</p>
+
+<p>But plugins can indeed be super useful, for instance with the plugin <a href="https://github.com/lervag/vimtex">vimtex</a>,
+vim becomes a latex powerhouse. For instance it know when your cursor is inside
+a line of text or in a line of math display and it can behave differently
+depending on the circunstantes. Together with another plugin called <a href="https://github.com/sirver/UltiSnips">UltiSnips</a>,
+whenever I am not in a math environment, if I press tab mid-word (in insert mode)
+vim will auto complete the word I am currently writing based on both the
+dictionary and on previous words I used in that file. For example, it completes</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[...] Four| &lt;------- CURSOR RIGHT HERE
+</code></pre></div></div>
+<p>to</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[...] Fourier |&lt;------- CURSOR RIGHT HERE.
+</code></pre></div></div>
+<p>However, if I am in insert mode, whenever I press tab mid-word inside of a math
+environment, vim will behave differently depending of what the word is. For
+instance:</p>
+<ol>
+  <li>If the word is a single letter (or the code for a Greek letter such as
+<code class="language-plaintext highlighter-rouge">\alpha, \beta</code> ) vim knows I like it to be a function, so it add the
+parenthesis and moves my cursor to where the parameter goes. I.e, if before
+pressing tab, I had
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> f| &lt;------- CURSOR RIGHT HERE
+</code></pre></div>    </div>
+    <p>vim changes it to</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> f(|)	    CURSOR IN BETWEEN THE PARENTHESIS HERE
+</code></pre></div>    </div>
+    <p>same for</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> \alpha| &lt;------- CURSOR RIGHT HERE
+</code></pre></div>    </div>
+    <p>vim changes it to</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> \alpha(|)	    CURSOR IN BETWEEN THE PARENTHESIS HERE
+</code></pre></div>    </div>
+  </li>
+  <li>If the word is more than one letter long (and it is not a Greek letter), vim
+assumes it is a latex command, and it adds a backslash at the beginning of
+it. So for instance
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> bar| &lt;------- CURSOR RIGHT HERE
+</code></pre></div>    </div>
+    <p>goes to</p>
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> \bar| &lt;------- CURSOR RIGHT HERE
+</code></pre></div>    </div>
+    <p>after pressing tab.</p>
+  </li>
+  <li>And if I press tab again, the previous code now becomes
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> \bar{|}      CURSOR IN BETWEEN THE BRACKETS
+</code></pre></div>    </div>
+    <p>so that vim knows that it is a command that needs a argument.</p>
+  </li>
+</ol>
+
+<p>And many other more specific examples. Those are very easy to customize and they
+are great for making exactly the features that YOU want in your text editor,
+instead of hoping that one day it would be added.</p>
+
+<p>Finally, vim’s search and replace accepts regular expressions.  To be fair this
+is fairly standard but people don’t seem to use them as often as they could.
+What this means is that maybe you are searching for all the instances of \(a^2_n\)
+because you realised your are using \(a\) for another quantity as well, and you
+would like to substitute it for \(b^2_n\),  but how do you know whether you wrote
+<code class="language-plaintext highlighter-rouge">a_n^2,{a_n}^2,a^{2}_n,a_n^{2}</code> and so on? With regular expressions you can search for
+something line <code class="language-plaintext highlighter-rouge">(a^\{?2\}?_\{?n\}?|\{?a_\{?n\}?\}?^\{?2\}?)</code>  which looks horrid (but
+so did <code class="language-plaintext highlighter-rouge">\int_{0}^{a+\theta} f(\omega)d\omega</code> the first time you wrote it) and
+now you have all the 16 versions at once!</p>
+
+<h1 id="vim-references-and-tutorials">Vim: References and tutorials</h1>
+<ul>
+  <li><a href="https://www.systutorials.com/vim-tutorial-beginners-vimtutor/">Vim tutor</a> -
+the oficial tutorial for vim.</li>
+  <li><a href="https://vim-adventures.com/">Vim adventures</a> - an adventure game that helps
+you getting used to vim commands.
+    <ul>
+      <li>Once you are used to them, you can try <a href="https://www.vimgolf.com/">vim
+Golf</a>. Where you are asked to change a file from
+state to another in the minimal amount of key strokes.</li>
+    </ul>
+  </li>
+  <li><a href="https://missing.csail.mit.edu/2020/editors/">Missing Semester</a>, as mentioned
+before, of introductory lectures that explain from the theory to a simple
+tutorial of how to use vim. I do recommend it!</li>
+  <li><a href="https://www.youtube.com/watch?v=_NUO4JEtkDw&amp;list=PL8tzorAO7s0jy7DQ3Q0FwF3BnXGQnDirs&amp;index=16&amp;ab_channel=thoughtbot">Talk: Learning vim in a
+week</a>
+a talk on how to not lose too much time getting used to vim, but just going
+straight into work.</li>
+</ul>
+
+
+      </article>
+
+      
+
+      
+
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+    <a href="https://twitter.com/intent/tweet?text=Vim+for+mathematicians&url=http%3A%2F%2Flocalhost%3A4000%2F2022%2F05%2F29%2FVim-for-mathematicians.html"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+
+  
+
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pagination blog-pager">
+        
+        <li class="page-item previous">
+          <a class="page-link" href="/git/2022/05/28/Git-for-mathematicians.html" data-toggle="tooltip" data-placement="top" title="Git for mathematicians">&larr; Previous Post</a>
+        </li>
+        
+        
+      </ul>
+      
+  
+  
+  
+
+  
+
+
+
+
+    </div>
+  </div>
+</div>
+
+
+  <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      <ul class="list-inline text-center footer-links"><li class="list-inline-item">
+    <a href="/feed.xml" title="RSS">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li><li class="list-inline-item">
+    <a href="mailto:l.chiarinimedeiros@uu.nl" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://github.com/leandrochiarini" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li><li class="list-inline-item">
+    <a href="https://twitter.com/L_Chiarini" title="Twitter">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Twitter</span>
+   </a>
+  </li></ul>
+
+      
+      <p class="copyright text-muted">
+      
+        Leadro Chiarini
+        &nbsp;&bull;&nbsp;
+      
+      2022
+
+      
+        &nbsp;&bull;&nbsp;
+        <span class="author-site">
+          <a href="http://localhost:4000/">www.lchiarini.com</a>
+        </span>
+      
+
+      
+      </p>
+      <!-- Please don't remove this, keep my open source work credited :) -->
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+  
+    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+  
+
+
+
+
+
+</body>
+</html>
