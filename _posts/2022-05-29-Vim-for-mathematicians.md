@@ -1,8 +1,8 @@
 ---
 title: Vim for mathematicians
 subtitle: Writing latex can be much faster
-date: 2022-05-29 00h37min
-categories: 
+date: 2022-05-28 21h37min
+categories: vim
 ---
 # A word of warning
 
