@@ -176,4 +176,8 @@ now you have all the 16 versions at once!
   week](https://www.youtube.com/watch?v=_NUO4JEtkDw&list=PL8tzorAO7s0jy7DQ3Q0FwF3BnXGQnDirs&index=16&ab_channel=thoughtbot)
   a talk on how to not lose too much time getting used to vim, but just going
   straight into work.
+- [Gilles Castel website](https://castel.dev/) is also a mathematician,
+  currently on his PhD. He is very skilled with the command line and does a lot
+  of scripts to also deal with latex files. Definitely a source of inspiration
+  for this blog.
 
