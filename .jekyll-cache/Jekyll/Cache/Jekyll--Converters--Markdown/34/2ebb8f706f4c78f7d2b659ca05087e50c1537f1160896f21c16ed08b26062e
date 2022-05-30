@@ -1,4 +1,4 @@
-I"(<h1 id="a-word-of-warning">A word of warning</h1>
+I")<h1 id="a-word-of-warning">A word of warning</h1>
 
 <p>Perhaps the most debatable part of this article is which text editor to use,
 there are several other very efficient text editor such as
@@ -71,7 +71,7 @@ whenever I am in a situation like this</p>
 	a-b+b | &lt;------- CURSOR RIGHT HERE
 \end{align*}
 </code></pre></div></div>
-<p>if I press the <code class="language-plaintext highlighter-rouge">Y</code> i.e <code class="language-plaintext highlighter-rouge">Shift+Y</code>, my vim will automatically copy the contents of
+<p>if I press the <code class="language-plaintext highlighter-rouge">Y</code> i.e <code class="language-plaintext highlighter-rouge">Shift+y</code>, my vim will automatically copy the contents of
 the last line of the align* environment and copy it bellow. That is, the content
 of the file not becomes this:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>\begin{align*}
@@ -172,6 +172,10 @@ tutorial of how to use vim. I do recommend it!</li>
 week</a>
 a talk on how to not lose too much time getting used to vim, but just going
 straight into work.</li>
+  <li><a href="https://castel.dev/">Gilles Castel website</a> is also a mathematician,
+currently on his PhD. He is very skilled with the command line and does a lot
+of scripts to also deal with latex files. Definitely a source of inspiration
+for this blog.</li>
 </ul>
 
 :ET

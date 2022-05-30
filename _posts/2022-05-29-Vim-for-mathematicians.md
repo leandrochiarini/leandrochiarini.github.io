@@ -74,7 +74,7 @@ whenever I am in a situation like this
 	a-b+b | <------- CURSOR RIGHT HERE
 \end{align*}
 ```
-if I press the ```Y``` i.e ```Shift+Y```, my vim will automatically copy the contents of
+if I press the ```Y``` i.e ```Shift+y```, my vim will automatically copy the contents of
 the last line of the align* environment and copy it bellow. That is, the content
 of the file not becomes this:
 ```
