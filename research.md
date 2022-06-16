@@ -10,12 +10,13 @@ long-range processes.
 C, L. Ruszel, W. _"Stochastic homogenization of Gaussian fields on random media"_. Submitted (2022)
 [arxiv](https://arxiv.org/abs/2201.12013)
 
-C, L.; Stauffer, A. _"Absorbing-state phase transition and activated random walks with unbounded capacities"_. Submitted (2021)
-[arxiv](https://arxiv.org/abs/2108.03038)
-
 C, L.; Jara, M.; Ruszel, W. _"Local central limit theorem and potential kernel estimates for a class of symmetric heavy-tailted random variables"_. Submitted (2021)
 [arxiv](https://arxiv.org/abs/2101.01609)
 
+# Accepted articles
+C, L.; Stauffer, A. "Absorbing-state phase transition and activated random walks with unbounded capacities". 
+Accept in ALEA, Lat. Am. J. Probab. Math. Stat. (2022)
+[arxiv](https://arxiv.org/abs/2108.03038)
 
 # Published articles
 C, L.; Landim, C. _"Schauder Estimates for Fractional Laplacians and non-local, one-dimensional singular SPDES"_,  SIAM J. Math. Anal. SIAM Journal on Mathematical Analysis v. 54, Iss. 210.1137/20 (2022)
