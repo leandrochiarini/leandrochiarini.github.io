@@ -15,7 +15,11 @@ C, L.; Jara, M.; Ruszel, W. _"Local central limit theorem and potential kernel e
 
 # Accepted articles
 C, L.; Stauffer, A. "Absorbing-state phase transition and activated random walks with unbounded capacities". 
+<<<<<<< HEAD
 Accepted in ALEA, Lat. Am. J. Probab. Math. Stat. (2022)
+=======
+Accept in ALEA, Lat. Am. J. Probab. Math. Stat. (2022)
+>>>>>>> a3b1a8ad500efc5da308389bb54166ad1f2ee7de
 [arxiv](https://arxiv.org/abs/2108.03038)
 
 # Published articles
