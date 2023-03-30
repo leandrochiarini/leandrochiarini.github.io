@@ -6,12 +6,7 @@ categories: vim
 ---
 # A word of warning
 
-Perhaps the most debatable part of this article is which text editor to use,
-there are several other very efficient text editor such as
-[atom](https://atom.io/), [overleaf](https://www.overleaf.com/),
-[eMacs](https://www.gnu.org/software/emacs/) (which is way more than a text
-editor). All of these have premium features, such as git integration, either out
-of the box or via some plugin. 
+Perhaps the most debatable part of this article is which text editor to use, there are several other very efficient text editor such as [atom](https://atom.io/), [overleaf](https://www.overleaf.com/), [eMacs](https://www.gnu.org/software/emacs/) (which is way more than a text editor). All of these have premium features, such as git integration, either out of the box or via some plugin. 
 
 # vim: What does it try to solve?
 

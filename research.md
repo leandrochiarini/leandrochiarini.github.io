@@ -3,8 +3,7 @@ layout: page
 title: Research
 ---
 
-**Research interests**: Singular random fields, interacting particle systems and
-long-range processes.
+**Research interests**: Singular random fields, interacting particle systems and long-range processes.
 
 # Preprints
 C, L. Ruszel, W. _"Stochastic homogenization of Gaussian fields on random media"_. Submitted (2022)
@@ -13,16 +12,13 @@ C, L. Ruszel, W. _"Stochastic homogenization of Gaussian fields on random media"
 C, L.; Jara, M.; Ruszel, W. _"Local central limit theorem and potential kernel estimates for a class of symmetric heavy-tailted random variables"_. Submitted (2021)
 [arxiv](https://arxiv.org/abs/2101.01609)
 
-# Accepted articles
-C, L.; Stauffer, A. "Absorbing-state phase transition and activated random walks with unbounded capacities". 
-<<<<<<< HEAD
-Accepted in ALEA, Lat. Am. J. Probab. Math. Stat. (2022)
-=======
-Accept in ALEA, Lat. Am. J. Probab. Math. Stat. (2022)
->>>>>>> a3b1a8ad500efc5da308389bb54166ad1f2ee7de
-[arxiv](https://arxiv.org/abs/2108.03038)
+%% # Accepted articles
 
 # Published articles
+C, L.; Stauffer, A. "Absorbing-state phase transition and activated random walks with unbounded capacities". 
+ALEA, Lat. Am. J. Probab. Math. Stat. (2022)
+[arxiv](https://arxiv.org/abs/2108.03038) - [journal](https://alea.impa.br/articles/v19/19-46.pdf)
+
 C, L.; Landim, C. _"Schauder Estimates for Fractional Laplacians and non-local, one-dimensional singular SPDES"_,  SIAM J. Math. Anal. SIAM Journal on Mathematical Analysis v. 54, Iss. 210.1137/20 (2022)
 [arxiv](https://arxiv.org/abs/1912.11869) - [journal](https://epubs.siam.org/doi/abs/10.1137/20M1382829)
 
