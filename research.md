@@ -12,8 +12,6 @@ C, L. Ruszel, W. _"Stochastic homogenization of Gaussian fields on random media"
 C, L.; Jara, M.; Ruszel, W. _"Local central limit theorem and potential kernel estimates for a class of symmetric heavy-tailted random variables"_. Submitted (2021)
 [arxiv](https://arxiv.org/abs/2101.01609)
 
-%% # Accepted articles
-
 # Published articles
 C, L.; Stauffer, A. "Absorbing-state phase transition and activated random walks with unbounded capacities". 
 ALEA, Lat. Am. J. Probab. Math. Stat. (2022)

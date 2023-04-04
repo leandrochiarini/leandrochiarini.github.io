@@ -1,15 +1,23 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-16T10:15:04+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Leandro Chiarini</title><author><name>Leadro Chiarini</name></author><entry><title type="html">Vim for mathematicians</title><link href="http://localhost:4000/vim/2022/05/28/Vim-for-mathematicians.html" rel="alternate" type="text/html" title="Vim for mathematicians" /><published>2022-05-28T21:37:00+02:00</published><updated>2022-05-28T21:37:00+02:00</updated><id>http://localhost:4000/vim/2022/05/28/Vim-for-mathematicians</id><content type="html" xml:base="http://localhost:4000/vim/2022/05/28/Vim-for-mathematicians.html"><![CDATA[<h1 id="a-word-of-warning">A word of warning</h1>
-=======
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-16T10:12:05+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Leandro Chiarini</title><author><name>Leadro Chiarini</name></author><entry><title type="html">Vim for mathematicians</title><link href="http://localhost:4000/vim/2022/05/28/Vim-for-mathematicians.html" rel="alternate" type="text/html" title="Vim for mathematicians" /><published>2022-05-28T21:37:00+02:00</published><updated>2022-05-28T21:37:00+02:00</updated><id>http://localhost:4000/vim/2022/05/28/Vim-for-mathematicians</id><content type="html" xml:base="http://localhost:4000/vim/2022/05/28/Vim-for-mathematicians.html"><![CDATA[<h1 id="a-word-of-warning">A word of warning</h1>
->>>>>>> a3b1a8ad500efc5da308389bb54166ad1f2ee7de
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-04T19:04:07+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Leandro Chiarini</title><author><name>Leandro Chiarini</name></author><entry><title type="html">A very simple command line interface for today’s arXiv entries</title><link href="http://localhost:4000/python,/arxiv/2023/03/29/arxiv-today.html" rel="alternate" type="text/html" title="A very simple command line interface for today’s arXiv entries" /><published>2023-03-29T23:37:00+02:00</published><updated>2023-03-29T23:37:00+02:00</updated><id>http://localhost:4000/python,/arxiv/2023/03/29/arxiv-today</id><content type="html" xml:base="http://localhost:4000/python,/arxiv/2023/03/29/arxiv-today.html"><![CDATA[<h1 id="the-motivation">The motivation</h1>
 
-<p>Perhaps the most debatable part of this article is which text editor to use,
-there are several other very efficient text editor such as
-<a href="https://atom.io/">atom</a>, <a href="https://www.overleaf.com/">overleaf</a>,
-<a href="https://www.gnu.org/software/emacs/">eMacs</a> (which is way more than a text
-editor). All of these have premium features, such as git integration, either out
-of the box or via some plugin.</p>
+<p>As many researcher in mathematics, I open arXiv daily to check on the latest articles on my field. And like many of them, I find arXiv’s interface slightly underwhelming. I like to be able to see the abstract and to be able to navigate through those articles a bit faster.</p>
+
+<h1 id="the-script">The script</h1>
+
+<p>There are several projects aiming to improve arXiv’s functionality (e.g <a href="https://arxiv-sanity-lite.com/">arxiv-sanity</a> and <a href="https://arxivist.com/">arXivist</a>). However, I wanted a bit more of flexibility to be able to integrate to my workflow with (n)vim. So I wrote this <a href="https://gist.github.com/leandrochiarini/202cd7e5c2d52cb7e2c45e2c9e4431db">little python script</a> that checks on the today’s arXiv.</p>
+
+<p>It uses <a href="https://github.com/junegunn/fzf">fzf</a> (and its implementation in python <code class="language-plaintext highlighter-rouge">pyfzf</code>) to let you select the multiple articles from today’s arXiv RSS, read the abstract. You can easily modify the script to change the area you are following.</p>
+
+<p>Once the script is running, enter your query to filter today’s article, press <code class="language-plaintext highlighter-rouge">TAB</code> to select each articles of your interest, then press <code class="language-plaintext highlighter-rouge">ENTER</code> to open all the selected articles. Besides opening the articles on your browser, the script also saves the information of all articles you opened via this script in a file <code class="language-plaintext highlighter-rouge">~/.arxiv-history</code>, which I use together with <code class="language-plaintext highlighter-rouge">vim-fzf</code> and <code class="language-plaintext highlighter-rouge">vim-UltiSnips</code> for easy reference it in my notes.</p>
+
+<h1 id="references">References</h1>
+<ul>
+  <li><a href="https://thevaluable.dev/practical-guide-fzf-example/">fzf guide</a></li>
+  <li><a href="https://github.com/nk412/pyfzf">pyfzf</a></li>
+  <li><a href="https://github.com/SirVer/ultisnips">UltiSnips</a></li>
+</ul>]]></content><author><name>Leandro Chiarini</name></author><category term="python," /><category term="arXiv" /><summary type="html"><![CDATA[The motivation]]></summary></entry><entry><title type="html">Vim for mathematicians</title><link href="http://localhost:4000/vim/2022/05/28/Vim-for-mathematicians.html" rel="alternate" type="text/html" title="Vim for mathematicians" /><published>2022-05-28T21:37:00+02:00</published><updated>2022-05-28T21:37:00+02:00</updated><id>http://localhost:4000/vim/2022/05/28/Vim-for-mathematicians</id><content type="html" xml:base="http://localhost:4000/vim/2022/05/28/Vim-for-mathematicians.html"><![CDATA[<h1 id="a-word-of-warning">A word of warning</h1>
+
+<p>Perhaps the most debatable part of this article is which text editor to use, there are several other very efficient text editor such as <a href="https://atom.io/">atom</a>, <a href="https://www.overleaf.com/">overleaf</a>, <a href="https://www.gnu.org/software/emacs/">eMacs</a> (which is way more than a text editor). All of these have premium features, such as git integration, either out of the box or via some plugin.</p>
 
 <h1 id="vim-what-does-it-try-to-solve">vim: What does it try to solve?</h1>
 
@@ -180,7 +188,7 @@ straight into work.</li>
 currently on his PhD. He is very skilled with the command line and does a lot
 of scripts to also deal with latex files. Definitely a source of inspiration
 for this blog.</li>
-</ul>]]></content><author><name>Leadro Chiarini</name></author><category term="vim" /><summary type="html"><![CDATA[A word of warning]]></summary></entry><entry><title type="html">Git for mathematicians</title><link href="http://localhost:4000/git/2022/05/28/Git-for-mathematicians.html" rel="alternate" type="text/html" title="Git for mathematicians" /><published>2022-05-28T19:49:00+02:00</published><updated>2022-05-28T19:49:00+02:00</updated><id>http://localhost:4000/git/2022/05/28/Git-for-mathematicians</id><content type="html" xml:base="http://localhost:4000/git/2022/05/28/Git-for-mathematicians.html"><![CDATA[<h1 id="git-what-does-it-try-to-solve">Git: What does it try to solve?</h1>
+</ul>]]></content><author><name>Leandro Chiarini</name></author><category term="vim" /><summary type="html"><![CDATA[A word of warning]]></summary></entry><entry><title type="html">Git for mathematicians</title><link href="http://localhost:4000/git/2022/05/28/Git-for-mathematicians.html" rel="alternate" type="text/html" title="Git for mathematicians" /><published>2022-05-28T19:49:00+02:00</published><updated>2022-05-28T19:49:00+02:00</updated><id>http://localhost:4000/git/2022/05/28/Git-for-mathematicians</id><content type="html" xml:base="http://localhost:4000/git/2022/05/28/Git-for-mathematicians.html"><![CDATA[<h1 id="git-what-does-it-try-to-solve">Git: What does it try to solve?</h1>
 <p>Most times I am collaborating with other researchers, we end up using Dropbox to
 keep the updated version of the article. More often than not, we both have
 copies of these same Dropbox folders somewhere else in our computers just to
@@ -263,20 +271,20 @@ Very friendly even if you never used the command line.</li>
   <li><a href="https://git-scm.com/book/en/v2">Book: Pro git</a>: If you want to know git in a
 lot of detail, might be the way to go. But you do not need to go that deep on
 your first trial.</li>
-</ul>]]></content><author><name>Leadro Chiarini</name></author><category term="Git" /><summary type="html"><![CDATA[Git: What does it try to solve? Most times I am collaborating with other researchers, we end up using Dropbox to keep the updated version of the article. More often than not, we both have copies of these same Dropbox folders somewhere else in our computers just to avoid conflicts or lose a previous version of our files (I know that one can see files from up to 30 days old on the website, or even more with the premium features, but I don’t find those particularly convenient). This can get clunky and often leads to dozens of different files with slightly different names. Even worse if you are sending versions back and forth by email.]]></summary></entry><entry><title type="html">This blog</title><link href="http://localhost:4000/2022/05/28/This-blog.html" rel="alternate" type="text/html" title="This blog" /><published>2022-05-28T18:47:00+02:00</published><updated>2022-05-28T18:47:00+02:00</updated><id>http://localhost:4000/2022/05/28/This-blog</id><content type="html" xml:base="http://localhost:4000/2022/05/28/This-blog.html"><![CDATA[<p>Hello there, my name is Leandro Chiarini. I am a mathematician, currently doing
+</ul>]]></content><author><name>Leandro Chiarini</name></author><category term="Git" /><summary type="html"><![CDATA[Git: What does it try to solve? Most times I am collaborating with other researchers, we end up using Dropbox to keep the updated version of the article. More often than not, we both have copies of these same Dropbox folders somewhere else in our computers just to avoid conflicts or lose a previous version of our files (I know that one can see files from up to 30 days old on the website, or even more with the premium features, but I don’t find those particularly convenient). This can get clunky and often leads to dozens of different files with slightly different names. Even worse if you are sending versions back and forth by email.]]></summary></entry><entry><title type="html">This blog</title><link href="http://localhost:4000/blog/2022/05/28/This-blog.html" rel="alternate" type="text/html" title="This blog" /><published>2022-05-28T18:47:00+02:00</published><updated>2022-05-28T18:47:00+02:00</updated><id>http://localhost:4000/blog/2022/05/28/This-blog</id><content type="html" xml:base="http://localhost:4000/blog/2022/05/28/This-blog.html"><![CDATA[<p>Hello there, my name is Leandro Chiarini. I am a mathematician, currently doing
 a postdoc at Utrecht University. During the first year of my PhD, I started
 coding again (after 6 years since my undergrad’s computer science classes).</p>
 
-<p>Back then, I started coding in <a href="https://julialang.org/">Julia</a> which I will talk
-about on this blog eventually. But for now, I want to focus on something else.
-My objective is to present a few tools which are known between computer
-scientists but not necessarily to other areas of science/academia. 
-I am not here to teach someone to code, there are many other people out there
-better suited to do so. I also do not think every mathematician needs to code
+<p>Back then, I started coding in <a href="https://julialang.org/">Julia</a> which I will
+talk about on this blog eventually. But for now, I want to focus on something
+else. My objective is to present a few tools which are known between computer
+scientists but not necessarily to other areas of science/academia. I am not
+here to teach someone to code, there are many other people out there better
+suited to do so. I also do not think every mathematician needs to code
 (although I think it is very beneficial). What I am here to talk is about
-dealing with latex files, collaborating with others, keeping version control for
-articles, and how to keep a comprehensive list of your pdf files. All of this in
-the context of a researcher in mathematics.</p>
+dealing with latex files, collaborating with others, keeping version control
+for articles, and how to keep a comprehensive list of your pdf files. All of
+this in the context of a researcher in mathematics.</p>
 
 <p>At the end of the day, latex is only a text file, the very same kind of file
 that computer scientists build a large amount of tools to deal with. And
@@ -321,8 +329,7 @@ you get used to it, it just feels natural.</p>
 <p>The first two topics are:</p>
 <ol>
   <li><a href="https://en.wikipedia.org/wiki/Git">git</a>  for version control and collaborative writing.</li>
-  <li><a href="https://en.wikipedia.org/wiki/Vim_(text_editor)">vim</a>, for dealing with files in a much faster way.</li>
+  <li>[vim](http://en.wikipedia.org/wiki/Vim_(text_editor), for dealing with files in a much faster way.</li>
 </ol>
 
-<p>After that, I might cover <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">bash</a> scripts, <a href="https://taskwarrior.org/">taskwarrior</a>, and some other things. I
-might discuss particle system simulations later on, let’s see.</p>]]></content><author><name>Leadro Chiarini</name></author><summary type="html"><![CDATA[Hello there, my name is Leandro Chiarini. I am a mathematician, currently doing a postdoc at Utrecht University. During the first year of my PhD, I started coding again (after 6 years since my undergrad’s computer science classes).]]></summary></entry></feed>
+<p>After that, I might cover [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell) scripts, <a href="https://taskwarrior.org/">taskwarrior</a>, and some other command line tools. I might discuss particle system simulations later on, let’s see.</p>]]></content><author><name>Leandro Chiarini</name></author><category term="blog" /><summary type="html"><![CDATA[Hello there, my name is Leandro Chiarini. I am a mathematician, currently doing a postdoc at Utrecht University. During the first year of my PhD, I started coding again (after 6 years since my undergrad’s computer science classes).]]></summary></entry></feed>

@@ -14,14 +14,9 @@ There are several projects aiming to improve arXiv's functionality (e.g [arxiv-s
 
 It uses [fzf](https://github.com/junegunn/fzf) (and its implementation in python ``pyfzf``) to let you select the multiple articles from today's arXiv RSS, read the abstract. You can easily modify the script to change the area you are following.
 
-
 Once the script is running, enter your query to filter today's article, press `TAB` to select each articles of your interest, then press `ENTER` to open all the selected articles. Besides opening the articles on your browser, the script also saves the information of all articles you opened via this script in a file `~/.arxiv-history`, which I use together with `vim-fzf` and `vim-UltiSnips` for easy reference it in my notes.
 
-% TODO Add reference vim article
-
-
 # References
-% TODO
-- [fzf guide]()
-- [pyfzf]()
-- [UltiSnips]()
+- [fzf guide](https://thevaluable.dev/practical-guide-fzf-example/)
+- [pyfzf](https://github.com/nk412/pyfzf)
+- [UltiSnips](https://github.com/SirVer/ultisnips)
