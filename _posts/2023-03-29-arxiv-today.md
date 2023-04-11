@@ -1,7 +1,9 @@
 ---
+
 title: A very simple command line interface for today's arXiv entries
 date: 2023-03-29 23h37min
-categories: python, arXiv
+categories: python arXiv
+
 ---
 
 # The motivation
