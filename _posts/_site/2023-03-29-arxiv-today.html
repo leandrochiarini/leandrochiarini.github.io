@@ -1,0 +1,18 @@
+<h1 id="the-motivation">The motivation</h1>
+
+<p>As many researcher in mathematics, I open arXiv daily to check on the latest articles on my field. And like many of them, I find arXiv’s interface slightly underwhelming. I like to be able to see the abstract and to be able to navigate through those articles a bit faster.</p>
+
+<h1 id="the-script">The script</h1>
+
+<p>There are several projects aiming to improve arXiv’s functionality (e.g <a href="https://arxiv-sanity-lite.com/">arxiv-sanity</a> and <a href="https://arxivist.com/">arXivist</a>). However, I wanted a bit more of flexibility to be able to integrate to my workflow with (n)vim. So I wrote this <a href="https://gist.github.com/leandrochiarini/202cd7e5c2d52cb7e2c45e2c9e4431db">little python script</a> that checks on the today’s arXiv.</p>
+
+<p>It uses <a href="https://github.com/junegunn/fzf">fzf</a> (and its implementation in python <code class="language-plaintext highlighter-rouge">pyfzf</code>) to let you select the multiple articles from today’s arXiv RSS, read the abstract. You can easily modify the script to change the area you are following.</p>
+
+<p>Once the script is running, enter your query to filter today’s article, press <code class="language-plaintext highlighter-rouge">TAB</code> to select each articles of your interest, then press <code class="language-plaintext highlighter-rouge">ENTER</code> to open all the selected articles. Besides opening the articles on your browser, the script also saves the information of all articles you opened via this script in a file <code class="language-plaintext highlighter-rouge">~/.arxiv-history</code>, which I use together with <code class="language-plaintext highlighter-rouge">vim-fzf</code> and <code class="language-plaintext highlighter-rouge">vim-UltiSnips</code> for easy reference it in my notes.</p>
+
+<h1 id="references">References</h1>
+<ul>
+  <li><a href="https://thevaluable.dev/practical-guide-fzf-example/">fzf guide</a></li>
+  <li><a href="https://github.com/nk412/pyfzf">pyfzf</a></li>
+  <li><a href="https://github.com/SirVer/ultisnips">UltiSnips</a></li>
+</ul>

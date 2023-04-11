@@ -9,13 +9,13 @@
 
   
 
-  <title>Blog</title>
+  <title>A very simple command line interface for today's arXiv entries</title>
 
   
   <meta name="author" content="Leandro Chiarini">
   
 
-  <meta name="description" content="">
+  <meta name="description" content="The motivation As many researcher in mathematics, I open arXiv daily to check on the latest articles on my field. And like many of them, I find arXiv’s interface slightly underwhelming. I like to be able to see the abstract and to be able to navigate through those articles a...">
 
   
 
@@ -72,17 +72,19 @@
 
   
   <meta property="og:site_name" content="Leandro Chiarini">
-  <meta property="og:title" content="Blog">
-  <meta property="og:description" content="">
+  <meta property="og:title" content="A very simple command line interface for today's arXiv entries">
+  <meta property="og:description" content="The motivation As many researcher in mathematics, I open arXiv daily to check on the latest articles on my field. And like many of them, I find arXiv’s interface slightly underwhelming. I like to be able to see the abstract and to be able to navigate through those articles a...">
 
   
   <meta property="og:image" content="http://localhost:4000/assets/img/profile.jpg">
   
 
   
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="http://localhost:4000/blog.html">
-  <link rel="canonical" href="http://localhost:4000/blog.html">
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Leandro Chiarini">
+  <meta property="og:article:published_time" content="2023-03-29T23:37:00+02:00">
+  <meta property="og:url" content="http://localhost:4000/python/arxiv/2023/03/29/arxiv-today.html">
+  <link rel="canonical" href="http://localhost:4000/python/arxiv/2023/03/29/arxiv-today.html">
   
 
   
@@ -91,8 +93,8 @@
   <meta name="twitter:site" content="@">
   <meta name="twitter:creator" content="@">
 
-  <meta property="twitter:title" content="Blog">
-  <meta property="twitter:description" content="">
+  <meta property="twitter:title" content="A very simple command line interface for today's arXiv entries">
+  <meta property="twitter:description" content="The motivation As many researcher in mathematics, I open arXiv daily to check on the latest articles on my field. And like many of them, I find arXiv’s interface slightly underwhelming. I like to be able to see the abstract and to be able to navigate through those articles a...">
 
   
   <meta name="twitter:image" content="http://localhost:4000/assets/img/profile.jpg">
@@ -157,10 +159,14 @@
   <div class="container-md">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-        <div class="page-heading">
-          <h1>Blog</h1>
+        <div class="post-heading">
+          <h1>A very simple command line interface for today's arXiv entries</h1>
           
 
+          
+            <span class="post-meta">Posted on March 29, 2023</span>
+            
+            
           
         </div>
       </div>
@@ -173,168 +179,91 @@
 
 
 
-<div class=" container-md " role="main">
+<div class=" container-md ">
   <div class="row">
     <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+
+      
+
+      
+
+      <article role="main" class="blog-post">
+        <h1 id="the-motivation">The motivation</h1>
+
+<p>As many researcher in mathematics, I open arXiv daily to check on the latest articles on my field. And like many of them, I find arXiv’s interface slightly underwhelming. I like to be able to see the abstract and to be able to navigate through those articles a bit faster.</p>
+
+<h1 id="the-script">The script</h1>
+
+<p>There are several projects aiming to improve arXiv’s functionality (e.g <a href="https://arxiv-sanity-lite.com/">arxiv-sanity</a> and <a href="https://arxivist.com/">arXivist</a>). However, I wanted a bit more of flexibility to be able to integrate to my workflow with (n)vim. So I wrote this <a href="https://gist.github.com/leandrochiarini/202cd7e5c2d52cb7e2c45e2c9e4431db">little python script</a> that checks on the today’s arXiv.</p>
+
+<p>It uses <a href="https://github.com/junegunn/fzf">fzf</a> (and its implementation in python <code class="language-plaintext highlighter-rouge">pyfzf</code>) to let you select the multiple articles from today’s arXiv RSS, read the abstract. You can easily modify the script to change the area you are following.</p>
+
+<p>Once the script is running, enter your query to filter today’s article, press <code class="language-plaintext highlighter-rouge">TAB</code> to select each articles of your interest, then press <code class="language-plaintext highlighter-rouge">ENTER</code> to open all the selected articles. Besides opening the articles on your browser, the script also saves the information of all articles you opened via this script in a file <code class="language-plaintext highlighter-rouge">~/.arxiv-history</code>, which I use together with <code class="language-plaintext highlighter-rouge">vim-fzf</code> and <code class="language-plaintext highlighter-rouge">vim-UltiSnips</code> for easy reference it in my notes.</p>
+
+<h1 id="references">References</h1>
+<ul>
+  <li><a href="https://thevaluable.dev/practical-guide-fzf-example/">fzf guide</a></li>
+  <li><a href="https://github.com/nk412/pyfzf">pyfzf</a></li>
+  <li><a href="https://github.com/SirVer/ultisnips">UltiSnips</a></li>
+</ul>
+
+      </article>
+
       
 
       
 
+      
+        <!-- Check if any share-links are active -->
 
 
 
-<div class="posts-list">
+
+<section id = "social-share-section">
+  <span class="sr-only">Share: </span>
+
   
-  <article class="post-preview">
-    
-
-    
-    
-    
-
-    <a href="http://localhost:4000/events/2023/04/11/Events-2023-2024.html">
-      <h2 class="post-title">Events 2023/2024</h2>
-
-      
+    <a href="https://twitter.com/intent/tweet?text=A+very+simple+command+line+interface+for+today%27s+arXiv+entries&url=http%3A%2F%2Flocalhost%3A4000%2Fpython%2Farxiv%2F2023%2F03%2F29%2Farxiv-today.html"
+      class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
     </a>
-
-    <p class="post-meta">
-      
-      Posted on April 11, 2023
-    </p>
-
-    
-
-    
-
-    
-
-   </article>
   
-  <article class="post-preview">
-    
 
-    
-    
-    
-
-    <a href="http://localhost:4000/python/arxiv/2023/03/29/arxiv-today.html">
-      <h2 class="post-title">A very simple command line interface for today's arXiv entries</h2>
-
-      
-    </a>
-
-    <p class="post-meta">
-      
-      Posted on March 29, 2023
-    </p>
-
-    
-
-    
-
-    
-
-   </article>
   
-  <article class="post-preview">
-    
 
-    
-    
-    
-
-    <a href="http://localhost:4000/vim/2022/05/28/Vim-for-mathematicians.html">
-      <h2 class="post-title">Vim for mathematicians</h2>
-
-      
-        <h3 class="post-subtitle">
-        Writing latex can be much faster
-        </h3>
-      
-    </a>
-
-    <p class="post-meta">
-      
-      Posted on May 28, 2022
-    </p>
-
-    
-
-    
-
-    
-
-   </article>
   
-  <article class="post-preview">
-    
 
-    
-    
-    
-
-    <a href="http://localhost:4000/git/2022/05/28/Git-for-mathematicians.html">
-      <h2 class="post-title">Git for mathematicians</h2>
-
-      
-        <h3 class="post-subtitle">
-        A better way to collaborate and keep track of your latex files
-        </h3>
-      
-    </a>
-
-    <p class="post-meta">
-      
-      Posted on May 28, 2022
-    </p>
-
-    
-
-    
-
-    
-
-   </article>
   
-  <article class="post-preview">
-    
 
-    
-    
-    
+</section>
 
-    <a href="http://localhost:4000/blog/2022/05/28/This-blog.html">
-      <h2 class="post-title">This blog</h2>
+
 
       
-        <h3 class="post-subtitle">
-        What to expect here
-        </h3>
+
+      <ul class="pagination blog-pager">
+        
+        <li class="page-item previous">
+          <a class="page-link" href="/vim/2022/05/28/Vim-for-mathematicians.html" data-toggle="tooltip" data-placement="top" title="Vim for mathematicians">&larr; Previous Post</a>
+        </li>
+        
+        
+        <li class="page-item next">
+          <a class="page-link" href="/events/2023/04/11/Events-2023-2024.html" data-toggle="tooltip" data-placement="top" title="Events 2023/2024">Next Post &rarr;</a>
+        </li>
+        
+      </ul>
       
-    </a>
-
-    <p class="post-meta">
-      
-      Posted on May 28, 2022
-    </p>
-
-    
-
-    
-
-    
-
-   </article>
   
-</div>
+
+    <div class="commentbox"></div>
+    <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+    <script>commentBox('5754503592673280-proj')</script>
 
 
 
 
-      
-
-      
 
     </div>
   </div>
@@ -429,6 +358,13 @@
 
 
 
+
+  
+    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+  
 
 
 

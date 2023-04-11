@@ -1,0 +1,64 @@
+I"<p>Hello there, my name is Leandro Chiarini. I am a mathematician, currently doing
+a postdoc at Utrecht University. During the first year of my PhD, I started
+coding again (after 6 years since my undergrad’s computer science classes).</p>
+
+<p>Back then, I started coding in <a href="https://julialang.org/">Julia</a> which I will
+talk about on this blog eventually. But for now, I want to focus on something
+else. My objective is to present a few tools which are known between computer
+scientists but not necessarily to other areas of science/academia. I am not
+here to teach someone to code, there are many other people out there better
+suited to do so. I also do not think every mathematician needs to code
+(although I think it is very beneficial). What I am here to talk is about
+dealing with latex files, collaborating with others, keeping version control
+for articles, and how to keep a comprehensive list of your pdf files. All of
+this in the context of a researcher in mathematics.</p>
+
+<p>At the end of the day, latex is only a text file, the very same kind of file
+that computer scientists build a large amount of tools to deal with. And
+some of those are <strong>very</strong> effective.</p>
+
+<p>As next posts about different tools come around, I will be focusing on three
+questions for each</p>
+<ol>
+  <li>What problem does it try to solve?</li>
+  <li>Why should you care?</li>
+  <li>Where to find more information about it?</li>
+</ol>
+
+<p>Notice that (at least for now), I am not providing a tutorial of how to use such
+tools, there are plenty of great ones online, and I will make sure to link the
+ones I used in the post. Instead, this is really an attempt of convincing people
+to use said tools. I will try to keep the first posts shorts and see what
+happens from there.</p>
+
+<p>I do, however, intend to write mini-tutorials on how to convert such tools to
+mathematical writing. As most of the tutorials I suggest are focusing on
+computer science. Think of this blog as “tools I believe would have saved me a
+lot of time if I was introduced to before”.</p>
+
+<p>Finally, I should make a few disclaimers. First, when I say “computer science
+tools”,  I do not mean that they are the “right” tool  that every computer
+scientist will (or should) agree that they are best.</p>
+
+<p>Second, for the sake of conciseness,  I will keep things simple and definitely
+not have a comprehensive list of features of the tools I talk about. Please
+follow the references for more details.</p>
+
+<p>Finally, I know very well that looking at the black and white screen of a
+terminal can be terrifying at first. I only properly started diving into this
+subjects without pure dread midway through the pandemic. But I will use the
+words of van Neumann “In mathematics you don’t understand things, you just get
+used to them”. The first time one is presented with an infinite dimensional
+space, or whatever other complicated object it probably took feel
+comfortable with such objects. Same applies here, it takes a while, but after
+you get used to it, it just feels natural.</p>
+
+<p>The first two topics are:</p>
+<ol>
+  <li><a href="https://en.wikipedia.org/wiki/Git">git</a>  for version control and collaborative writing.</li>
+  <li>[vim](http://en.wikipedia.org/wiki/Vim_(text_editor), for dealing with files in a much faster way.</li>
+</ol>
+
+<p>After that, I might cover [bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell) scripts, <a href="https://taskwarrior.org/">taskwarrior</a>, and some other command line tools. I might discuss particle system simulations later on, let’s see.</p>
+
+:ET
