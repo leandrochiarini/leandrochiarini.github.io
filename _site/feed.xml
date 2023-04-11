@@ -1,4 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-04T19:04:07+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Leandro Chiarini</title><author><name>Leandro Chiarini</name></author><entry><title type="html">A very simple command line interface for today’s arXiv entries</title><link href="http://localhost:4000/python,/arxiv/2023/03/29/arxiv-today.html" rel="alternate" type="text/html" title="A very simple command line interface for today’s arXiv entries" /><published>2023-03-29T23:37:00+02:00</published><updated>2023-03-29T23:37:00+02:00</updated><id>http://localhost:4000/python,/arxiv/2023/03/29/arxiv-today</id><content type="html" xml:base="http://localhost:4000/python,/arxiv/2023/03/29/arxiv-today.html"><![CDATA[<h1 id="the-motivation">The motivation</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-04-11T09:48:51+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Leandro Chiarini</title><author><name>Leandro Chiarini</name></author><entry><title type="html">Events 2023/2024</title><link href="http://localhost:4000/events/2023/04/11/Events-2023-2024.html" rel="alternate" type="text/html" title="Events 2023/2024" /><published>2023-04-11T09:34:00+02:00</published><updated>2023-04-11T09:34:00+02:00</updated><id>http://localhost:4000/events/2023/04/11/Events-2023-2024</id><content type="html" xml:base="http://localhost:4000/events/2023/04/11/Events-2023-2024.html"><![CDATA[<p>Here is a quick list of events in the next year or so that I found interesting. This list reflects my personal preferences, but I think it might be useful to others.</p>
+
+<h1 id="2023">2023</h1>
+<h2 id="june">June</h2>
+<ul>
+  <li><a href="https://sites.google.com/view/rw-in-bath/">Random walks in Bath</a></li>
+</ul>
+
+<h2 id="july">July</h2>
+<ul>
+  <li><a href="https://www.spa2023.org/">Saint-Flour Summer school</a></li>
+  <li><a href="http://127.0.0.1:4000">Stochastic Processes and their applications</a></li>
+</ul>
+
+<h2 id="september">September</h2>
+<ul>
+  <li><a href="https://sites.google.com/unifi.it/cime/c-i-m-e-courses/c-i-m-e-courses-2023/statistical-mechanics-and-stochastic-pde">Statistical Mechanics and Stochastic PDEs</a></li>
+</ul>
+
+<h2 id="december">December</h2>
+<ul>
+  <li><a href="https://www.mfo.de/occasion/2351/www_view">Arbeitsgemeinschaft: QFT and Stochastic PDEs</a></li>
+</ul>
+
+<h1 id="2024">2024</h1>
+<h2 id="march-june">March-June</h2>
+<ul>
+  <li><a href="https://www.ipam.ucla.edu/programs/long-programs/geometry-statistical-mechanics-and-integrability/">Geometry, Statistical Mechanics, and Integrability</a></li>
+</ul>]]></content><author><name>Leandro Chiarini</name></author><category term="Events" /><summary type="html"><![CDATA[Here is a quick list of events in the next year or so that I found interesting. This list reflects my personal preferences, but I think it might be useful to others.]]></summary></entry><entry><title type="html">A very simple command line interface for today’s arXiv entries</title><link href="http://localhost:4000/python,/arxiv/2023/03/29/arxiv-today.html" rel="alternate" type="text/html" title="A very simple command line interface for today’s arXiv entries" /><published>2023-03-29T23:37:00+02:00</published><updated>2023-03-29T23:37:00+02:00</updated><id>http://localhost:4000/python,/arxiv/2023/03/29/arxiv-today</id><content type="html" xml:base="http://localhost:4000/python,/arxiv/2023/03/29/arxiv-today.html"><![CDATA[<h1 id="the-motivation">The motivation</h1>
 
 <p>As many researcher in mathematics, I open arXiv daily to check on the latest articles on my field. And like many of them, I find arXiv’s interface slightly underwhelming. I like to be able to see the abstract and to be able to navigate through those articles a bit faster.</p>
 
