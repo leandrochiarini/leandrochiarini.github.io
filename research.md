@@ -5,7 +5,7 @@ title: Research
 
 **Research interests**: Singular random fields, interacting particle systems, growth models and long-range processes.
 
-# Accepted
+# Accepted articles
 C, L.; Jara, M.; Ruszel, W. _"Fractional Edgeworth expansions for one-dimensional heavy-tailed random variables and applications"_.
 Accepted in Electronic Journal of Probability (2023)
 [arxiv](https://arxiv.org/abs/2101.01609)
