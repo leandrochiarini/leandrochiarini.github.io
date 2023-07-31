@@ -5,14 +5,16 @@ title: Research
 
 **Research interests**: Singular random fields, interacting particle systems and long-range processes.
 
-# Preprints
-C, L. Ruszel, W. _"Stochastic homogenization of Gaussian fields on random media"_. Submitted (2022)
-[arxiv](https://arxiv.org/abs/2201.12013)
-
-C, L.; Jara, M.; Ruszel, W. _"Local central limit theorem and potential kernel estimates for a class of symmetric heavy-tailted random variables"_. Submitted (2021)
+# Accepted
+C, L.; Jara, M.; Ruszel, W. _"Local central limit theorem and potential kernel estimates for a class of symmetric heavy-tailted random variables"_.
+Accepted in Electronic Journal of Probability (2023)
 [arxiv](https://arxiv.org/abs/2101.01609)
 
 # Published articles
+C, L. Ruszel, W. _"Stochastic homogenization of Gaussian fields on random media"_. 
+Annales Henri Poincaré (2023)
+[arxiv](https://arxiv.org/abs/2201.12013) - [journal](https://link.springer.com/article/10.1007/s00023-023-01347-5)
+
 C, L.; Stauffer, A. "Absorbing-state phase transition and activated random walks with unbounded capacities". 
 ALEA, Lat. Am. J. Probab. Math. Stat. (2022)
 [arxiv](https://arxiv.org/abs/2108.03038) - [journal](https://alea.impa.br/articles/v19/19-46.pdf)
