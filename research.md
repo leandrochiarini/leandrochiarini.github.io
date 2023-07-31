@@ -3,7 +3,7 @@ layout: page
 title: Research
 ---
 
-**Research interests**: Singular random fields, interacting particle systems and long-range processes.
+**Research interests**: Singular random fields, interacting particle systems, growth models and long-range processes.
 
 # Accepted
 C, L.; Jara, M.; Ruszel, W. _"Fractional Edgeworth expansions for one-dimensional heavy-tailed random variables and applications"_.
