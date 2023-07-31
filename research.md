@@ -6,7 +6,7 @@ title: Research
 **Research interests**: Singular random fields, interacting particle systems and long-range processes.
 
 # Accepted
-C, L.; Jara, M.; Ruszel, W. _"Local central limit theorem and potential kernel estimates for a class of symmetric heavy-tailted random variables"_.
+C, L.; Jara, M.; Ruszel, W. _"Fractional Edgeworth expansions for one-dimensional heavy-tailed random variables and applications"_.
 Accepted in Electronic Journal of Probability (2023)
 [arxiv](https://arxiv.org/abs/2101.01609)
 
