@@ -5,6 +5,11 @@ title: Research
 
 **Research interests**: Singular random fields, interacting particle systems, growth models and long-range processes.
 
+# Submitted articles
+C, L.; Cipriani, A; Rapoport, A; Ruszel, W _"Fermionic Gaussian free field structure in the Abelian sandpile model and uniform spanning tree
+"_.
+Submitted
+[arxiv](https://arxiv.org/abs/2309.08349) 
 
 # Published articles
 C, L.; Jara, M.; Ruszel, W. _"Fractional Edgeworth expansions for one-dimensional heavy-tailed random variables and applications"_.
