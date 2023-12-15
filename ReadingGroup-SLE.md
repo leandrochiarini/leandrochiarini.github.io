@@ -15,9 +15,15 @@ We will begin by discussing the general properties of SLE and providing an overv
 All members of Durham University are welcome to join the group. Presenting is highly encouraged, but not mandatory. However, if you wish to contribute to the reading group in different way, you can send me your notes (handwritten or latex) from the talks and I can put them here.
 
 
-## Time (to confirm)
+## Time 
 We are planning to meet weekly on Thursdays at 15h00 for 60' to 90' and have 9 or 10 meetings in total. Please let me know if you are interested but cannot join at this time.
 We will confirm the room soon!
+
+# Zoom 
+We will also transmit the meetings via zoom for those interested. However, we note that we do not guarantee ease of following on zoom. Furthermore, speakers are not expected to write slides or anything of the sort.
+
+[Zoom Link](https://durhamuniversity.zoom.us/j/92689066973?pwd=UnFCaXdlWml0Qy9pcGVNVmJHbkw4dz09)
+Passcode will be provided via email.
 
 ## (Provisional) Schedule
 - **11/01/2024:**  Ellen Powell - [4]
