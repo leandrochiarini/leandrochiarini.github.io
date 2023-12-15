@@ -20,16 +20,16 @@ We are planning to meet weekly on Thursdays at 15h00 for 60' to 90' and have 9 o
 We will confirm the room soon!
 
 ## (Provisional) Schedule
-- **Week 1:**  Ellen Powell - [3]
-- **Week 2:**  Leandro Chiarini - [7]
-- **Week 3:**  Ellen Powell - [6]
-- **Week 4:**  Léonie Papon - [5] 
-- **Week 5:**  Leandro Chiarini - [2]
-- **Week 6:**  ?? - [1]
-- **Week 7:**  Léonie Papon - [4] 
-- **Week 8:**  To confirm
-- **Week 9:**  To confirm
-- **Week 10**: To confirm
+- **11/01/2024:**  Ellen Powell - [3]
+- **18/01/2024:**  Leandro Chiarini - [7]
+- **25/01/2024:**  Ellen Powell - [6]
+- **01/02/2024:**  Léonie Papon - [5] 
+- **08/02/2024:**  ?? - [1]
+- **15/02/2024:**  Leandro Chiarini - [2]
+- **22/02/2024:**  Léonie Papon - [4] 
+- **29/02/2024:**  To confirm
+- **07/03/2024:**  To confirm
+- **14/03/2024**: To confirm
 
 # References (More to be added)
 1. Berestycki, Haunschmid-Sibitz _"Near-critical dimers and massive SLE"_. [Link](https://arxiv.org/pdf/2203.15717.pdf)
