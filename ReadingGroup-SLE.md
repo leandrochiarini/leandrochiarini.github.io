@@ -24,12 +24,12 @@ We will confirm the room soon!
 - **18/01/2024:**  Leandro Chiarini - [7]
 - **25/01/2024:**  Ellen Powell - [6]
 - **01/02/2024:**  Léonie Papon - [5] 
-- **08/02/2024:**  ?? - [1]
+- **08/02/2024:**  To confirm - [1]
 - **15/02/2024:**  Leandro Chiarini - [2]
 - **22/02/2024:**  Léonie Papon - [4] 
-- **29/02/2024:**  To confirm
-- **07/03/2024:**  To confirm
-- **14/03/2024**: To confirm
+- **29/02/2024:**  To confirm - To confirm
+- **07/03/2024:**  To confirm - To confirm
+- **14/03/2024**: To confirm - To confirm
 
 # References (More to be added)
 1. Berestycki, Haunschmid-Sibitz _"Near-critical dimers and massive SLE"_. [Link](https://arxiv.org/pdf/2203.15717.pdf)
