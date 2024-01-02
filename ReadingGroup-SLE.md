@@ -16,7 +16,7 @@ All members of Durham University are welcome to join the group. Presenting is hi
 
 
 ## Time and place
-We are planning to meet weekly on Thursdays at 15h00 for 60' to 90' and have 9 or 10 meetings in total. Please let me know if you are interested but cannot join at this time. We will meet at the magic room.
+We are planning to meet weekly on Thursdays at 15h00 for 60' to 90' and have 9 or 10 meetings in total. Please let me know if you are interested but cannot join at this time. We will meet at the **magic room**.
 
 # Zoom 
 We will also transmit the meetings via zoom for those interested. However, we note that we do not guarantee ease of following on zoom. Furthermore, speakers are not expected to write slides or anything of the sort.
