@@ -37,13 +37,13 @@ Passcode will be provided via email.
 - **14/03/2024**: To confirm - To confirm
 
 # References (More to be added)
-1. Berestycki, Haunschmid-Sibitz _"Near-critical dimers and massive SLE"_. [Link](https://arxiv.org/pdf/2203.15717.pdf)
-2. Camia _"Off-criticality and the massive Brownian loop soup"_. [Link](https://arxiv.org/pdf/1309.6068.pdf)
-3. Le Jan _"Markov paths, loops and fields"_. [Link](https://arxiv.org/abs/0808.2303)
+1. Berestycki, Haunschmid-Sibitz, _"Near-critical dimers and massive SLE"_. [Link](https://arxiv.org/pdf/2203.15717.pdf)
+2. Camia, _"Off-criticality and the massive Brownian loop soup"_. [Link](https://arxiv.org/pdf/1309.6068.pdf)
+3. Le Jan, _"Markov paths, loops and fields"_. [Link](https://arxiv.org/abs/0808.2303)
 4. Makarov, Smirnov  _"Off-critical lattice models and massive SLEs"_. [Link](https://arxiv.org/pdf/0909.5377.pdf)
-5. Papon  _"Massive SLE_4, massive CLE_4 and the massive planar GFF"_. To appear on arXiv
-6. Qian, Werner _"Decomposition of Brownian loop-soup clusters"_. [Link](https://link.springer.com/article/10.1007/s00220-018-3159-z)
-7. Sheffield, Werner  _"Conformal loop ensembles: the Markovian characterization and the loop-soup construction"_. [Link](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=da7e6063f7147adb21e81c24fa246b40b75e1b4d)
+5. Papon,_"Massive SLE4, massive CLE4 and the massive planar GFF"_. [Link](https://arxiv.org/abs/2312.11180) 
+6. Qian, Werner, _"Decomposition of Brownian loop-soup clusters"_. [Link](https://link.springer.com/article/10.1007/s00220-018-3159-z)
+7. Sheffield, Werner,  _"Conformal loop ensembles: the Markovian characterization and the loop-soup construction"_. [Link](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=da7e6063f7147adb21e81c24fa246b40b75e1b4d)
 
 - Image above from Wikipedia
 
