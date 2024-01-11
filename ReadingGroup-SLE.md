@@ -51,7 +51,7 @@ Passcode will be provided via email.
 
 # Extra material
 1. Berestycki, Powell, _"Gaussian free field and Liouville quantum gravity"_ [Link](https://drive.google.com/file/d/14hegm46TMjtAJFePb0ZYwk9t2XHoFJ8o/view)
-2. Kemppainen, _"Schramm–loewner evolution"_
+2. Kemppainen, _"Schramm–Loewner evolution"_
 
 
 
