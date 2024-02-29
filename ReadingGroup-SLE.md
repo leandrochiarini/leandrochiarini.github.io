@@ -21,9 +21,6 @@ We are planning to meet weekly on Thursdays at 15h00 for 60' to 90' and have 9 o
 # Zoom 
 We will also transmit the meetings via zoom for those interested. However, we note that we do not guarantee ease of following on zoom. Furthermore, speakers are not expected to write slides or anything of the sort.
 
-[Zoom Link](https://durhamuniversity.zoom.us/j/92689066973?pwd=UnFCaXdlWml0Qy9pcGVNVmJHbkw4dz09)
-Passcode will be provided via email.
-
 ## (Provisional) Schedule
 - **11/01/2024:**  Ellen Powell - Intro to SLE (see extra material 1)
 - **18/01/2024:**  Leandro Chiarini - [6]
@@ -31,10 +28,7 @@ Passcode will be provided via email.
 - **01/02/2024:**  Léonie Papon - [5] 
 - **08/02/2024:**  Léonie Papon - Dynkin's isomorphism for the GFF CLE couplings for massive and massless cases [3]
 - **15/02/2024:**  Leandro Chiarini - [2]
-- **22/02/2024:**  To confirm - [1]
-- **29/02/2024:**  To confirm - [1]
-- **07/03/2024:**  To confirm - To confirm
-- **14/03/2024**: To confirm - To confirm
+- **22/02/2024:**  Davide Macera [1]
 
 # Notes from talks
 - [Notes - first and third meeting](./pdfs/Massive_SLE_reading_group-1.pdf)
@@ -52,8 +46,6 @@ Passcode will be provided via email.
 # Extra material
 1. Berestycki, Powell, _"Gaussian free field and Liouville quantum gravity"_ [Link](https://drive.google.com/file/d/14hegm46TMjtAJFePb0ZYwk9t2XHoFJ8o/view)
 2. Kemppainen, _"Schramm–Loewner evolution"_
-
-
 
 ## Organised by
 - [Ellen Powell](https://sites.google.com/view/ellenpowell/home?authuser=0)
