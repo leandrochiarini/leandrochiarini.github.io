@@ -1,70 +1,80 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-09T00:31:11+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Leandro Chiarini</title><author><name>Leandro Chiarini</name></author><entry><title type="html">Gibbs measures</title><link href="http://localhost:4000/2024/04/04/Gibbs-measures.html" rel="alternate" type="text/html" title="Gibbs measures" /><published>2024-04-04T19:07:00+01:00</published><updated>2024-04-04T19:07:00+01:00</updated><id>http://localhost:4000/2024/04/04/Gibbs-measures</id><content type="html" xml:base="http://localhost:4000/2024/04/04/Gibbs-measures.html"><![CDATA[<h1 id="summary">Summary</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-28T10:07:54+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Leandro Chiarini</title><author><name>Leandro Chiarini</name></author><entry><title type="html">Events (updated in Jan 2025)</title><link href="http://localhost:4000/events/2023/04/11/Events-2023-2024.html" rel="alternate" type="text/html" title="Events (updated in Jan 2025)" /><published>2023-04-11T09:34:00+01:00</published><updated>2023-04-11T09:34:00+01:00</updated><id>http://localhost:4000/events/2023/04/11/Events-2023-2024</id><content type="html" xml:base="http://localhost:4000/events/2023/04/11/Events-2023-2024.html"><![CDATA[<p>Here is a quick list of events in the next year or so that I found interesting. This list reflects my personal preferences, but I think it might be useful to others.</p>
+
+<p><strong>Last updated: 28/01/2025</strong></p>
+
+<h2 id="2025">2025</h2>
+
+<h3 id="17-28-february">17-28 February</h3>
 <ul>
-  <li>Bertrand’s paradox</li>
-  <li>Difficulty to choose a measure</li>
-  <li>Hamiltonian</li>
-  <li>Least action principle</li>
-  <li>Variational Problem</li>
+  <li><a href="https://sites.google.com/view/winterschoolsapienza/home">Winter school on Statistical Mechanics, Nonequilibrium Processes and Probability</a>
+    <ul>
+      <li>University of Rome La Sapienza</li>
+    </ul>
+  </li>
 </ul>
 
-<h1 id="the-choice-of-measure">The choice of measure</h1>
-
-<p>In a first course of probability theory, we learn about the law of large
-numbers (LLN). That  is, for a given sequence of i.i.d random variables with finite
-mean \(X_1,X_2,\dots\), we have that \(\frac{1}{N}\sum_{i=1}^N  X_i \longrightarrow \mathbb{E}X_1\) almost surely.</p>
-
-<p>There are indeed more setting for which this sort of statement holds beyond the
-i.i.d case. One such belong to the realm of <a href="https://en.wikipedia.org/wiki/Ergodic_theory">ergodic theory</a> an subfield of Dynamical
-systems. 
-In this setting, we assume that there exists a measurable space \((\Omega,
-\mathcal{F})\). We then assume that there exists a map \(T: \Omega\to  \Omega\)
-(often referred as a dynamics on \(\Omega\))  which is \(\mathcal{F}\)-measurable.
-Roughly speaking, the objective of ergodic theory is to study dynamical systems
-with probability theory tools. For this, we introduce a probability measure
-\(\mu\)  on the space \((\Omega,\mathcal{F})\), furthermore, we want this
-probability measure  to be somehow compatible with our dynamics.  For us, this
-means that \(\mu\) is \(T\)-invariant, i.e, for every \(A \in \mathcal{F}\), we have
-that \(\mu (T^{-1}(A))=\mu(A)\). Furthermore, we call \(\mu\) a \(T\)-ergodic measure if 
-\(T^{-1}(A)=A\) implies that \(\mu(A) \in \{0,1\}\). In words, this means that from
-the point of view of \(\mu\), the only sets which are not “well mixed” are either
-really small or really large.</p>
-
-<p>In this setting, we find generalisations of the LLN, called <strong>ergodic
-theorems</strong>. For instance, the Birkhoff Ergodic Theorem states that for any
-function in \(f \in L^1(\Omega,\mathcal{F},\mu)\) we have that
-\[
-\frac{1}{N}\sum_{i=1}^{N-1} f \circ T^{(i)} \longrightarrow \int_{\Omega} f
-d\mu.
-\]
-Indeed, if we take \(\Omega:=\mathbb{R}^{\mathbb{N}}\) with the product
-\(\sigma\)-algebra and a product measure \(\mu := \prod_{i \in \mathbb{N}}
-\mathbb{P}_X\)  and  consider the projection function \(f(\{x_i\}_{i\ge
-1}):=x_1\) and the dynamics  \(T(\{x_{i}\}_{i\ge  1}) := \{x_{i+1}\}_{i\ge 1}\)
-(i.e, deleting the first coordinate). Then we have that the LLN is in fact a
-particular case of the  Birkhoff Ergodic Theorem.</p>
-
-<p>There is, however, one important aspect to think about. If in ergodic theory,
-we  want to study a dynamical system and see probability theory as as tool,
-then, how do we choose the probability measure \(\mu\) in general?</p>]]></content><author><name>Leandro Chiarini</name></author><category term="probability" /><category term="statistical mechanics" /><category term="ergodic theory" /><summary type="html"><![CDATA[Summary Bertrand’s paradox Difficulty to choose a measure Hamiltonian Least action principle Variational Problem]]></summary></entry><entry><title type="html">Events</title><link href="http://localhost:4000/events/2023/04/11/Events-2023-2024.html" rel="alternate" type="text/html" title="Events" /><published>2023-04-11T09:34:00+01:00</published><updated>2023-04-11T09:34:00+01:00</updated><id>http://localhost:4000/events/2023/04/11/Events-2023-2024</id><content type="html" xml:base="http://localhost:4000/events/2023/04/11/Events-2023-2024.html"><![CDATA[<p>Here is a quick list of events in the next year or so that I found interesting. This list reflects my personal preferences, but I think it might be useful to others.</p>
-
-<h3 id="march-to-june-2024">March to June 2024</h3>
+<h3 id="24-28-march">24-28 March</h3>
 <ul>
-  <li><a href="https://www.ipam.ucla.edu/programs/long-programs/geometry-statistical-mechanics-and-integrability/">Geometry, Statistical Mechanics, and Integrability</a></li>
+  <li><a href="https://davidgeldbach.wixsite.com/website">Oxford Probability Workshop: Random Discrete Structures</a>
+    <ul>
+      <li>Oxford University</li>
+    </ul>
+  </li>
 </ul>
 
-<h3 id="june-2024">June 2024</h3>
+<h3 id="31-may---4-april">31 May - 4 April</h3>
 <ul>
-  <li><a href="https://probabilityrome2024.it/#:~:text=The%204th%20edition%20of%20the,June%2010th%20to%2014th%2C%202024.">4th Italian Meeting on Probability and Mathematical Statistics</a></li>
+  <li><a href="https://www2.mathematik.tu-darmstadt.de/~stochastik/SpringSchool2025/">UK Easter Probability Meeting</a>
+    <ul>
+      <li>Durham University</li>
+    </ul>
+  </li>
 </ul>
 
-<h3 id="august-2024">August 2024</h3>
+<h3 id="5-may---15-august">5 May - 15 August</h3>
 <ul>
-  <li><a href="https://www.maths.dur.ac.uk/symposia/115/">Durham Symposium 2024 Large-scale behaviour of critical and near critical statistical physics models</a></li>
+  <li><a href="https://www.mathematics.uni-bonn.de/him/programs/future/him-trimester-program-probalilistic-methods-in-quantum-field-theory">Trimester Program: Probabilistic methods in quantum field theory</a>
+    <ul>
+      <li>Hausdorff Research Institute (Bonn)</li>
+    </ul>
+  </li>
 </ul>
 
-<h3 id="may-to-august-2025">May to August 2025</h3>
+<h3 id="2---27-june">2 - 27 June</h3>
 <ul>
-  <li><a href="https://www.him.uni-bonn.de/programs/future-programs/future-trimester-programs/probabilistic-methods-in-quantum-field-theory/description/">Probabilistic methods in quantum field theory</a></li>
+  <li><a href="https://secure.math.ubc.ca/Links/ssprob25/index.php">PIMS-CRM Summer School in Probability</a>
+    <ul>
+      <li>PIMS</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="30-june---12-july">30 June - 12 July</h3>
+<ul>
+  <li><a href="https://lmbp.uca.fr/stflour/stflour-en.php">Saint-Flour Summer School</a>
+    <ul>
+      <li>Laboratoire de Mathématiques Blaise Pascal</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="7-july">7 July</h3>
+<ul>
+  <li><a href="https://warwick.ac.uk/fac/sci/statistics/news/patw_summer_school/">P@W  Summer School - Recent Trends in Probability and Statistics</a>
+    <ul>
+      <li>University of Warwick</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="2026">2026</h2>
+<h3 id="4---22-may">4 - 22 May</h3>
+<ul>
+  <li><a href="https://ims.nus.edu.sg/events/statistics_singularspdes/">Statistical Mechanics and Singular SPDEs</a>
+    <ul>
+      <li>National University of Singapore</li>
+    </ul>
+  </li>
 </ul>]]></content><author><name>Leandro Chiarini</name></author><category term="Events" /><summary type="html"><![CDATA[Here is a quick list of events in the next year or so that I found interesting. This list reflects my personal preferences, but I think it might be useful to others.]]></summary></entry><entry><title type="html">A very simple command line interface for today’s arXiv entries</title><link href="http://localhost:4000/python/arxiv/2023/03/29/arxiv-today.html" rel="alternate" type="text/html" title="A very simple command line interface for today’s arXiv entries" /><published>2023-03-29T23:37:00+01:00</published><updated>2023-03-29T23:37:00+01:00</updated><id>http://localhost:4000/python/arxiv/2023/03/29/arxiv-today</id><content type="html" xml:base="http://localhost:4000/python/arxiv/2023/03/29/arxiv-today.html"><![CDATA[<h1 id="the-motivation">The motivation</h1>
 
 <p>As many researcher in mathematics, I open arXiv daily to check on the latest articles on my field. And like many of them, I find arXiv’s interface slightly underwhelming. I like to be able to see the abstract and to be able to navigate through those articles a bit faster.</p>
