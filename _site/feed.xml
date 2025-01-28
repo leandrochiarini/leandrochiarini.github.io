@@ -1,4 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-28T10:10:01+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Leandro Chiarini</title><author><name>Leandro Chiarini</name></author><entry><title type="html">Events</title><link href="http://localhost:4000/events/2023/04/11/Events-2023-2024.html" rel="alternate" type="text/html" title="Events" /><published>2023-04-11T09:34:00+01:00</published><updated>2023-04-11T09:34:00+01:00</updated><id>http://localhost:4000/events/2023/04/11/Events-2023-2024</id><content type="html" xml:base="http://localhost:4000/events/2023/04/11/Events-2023-2024.html"><![CDATA[<p>Here is a quick list of events in the next year or so that I found interesting. This list reflects my personal preferences, but I think it might be useful to others.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-01-28T10:30:32+00:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Leandro Chiarini</title><author><name>Leandro Chiarini</name></author><entry><title type="html">Events</title><link href="http://localhost:4000/events/2023/04/11/Events-2023-2024.html" rel="alternate" type="text/html" title="Events" /><published>2023-04-11T09:34:00+01:00</published><updated>2023-04-11T09:34:00+01:00</updated><id>http://localhost:4000/events/2023/04/11/Events-2023-2024</id><content type="html" xml:base="http://localhost:4000/events/2023/04/11/Events-2023-2024.html"><![CDATA[<p>Here is a quick list of events in the next year or so that I found interesting. This list reflects my personal preferences, but I think it might be useful to others.</p>
+
+<p>Other places to find events:</p>
+<ul>
+  <li><a href="https://imstat.org/meetings-calendar/">Institute for Mathematical Statistics</a></li>
+  <li><a href="http://womeninprobability.org/Calendar.html">Women in Mathematics</a></li>
+  <li><a href="https://people.math.rochester.edu/faculty/cmlr/advice/">Carl Muller Webpage</a></li>
+</ul>
 
 <p><strong>Last updated: 28/01/2025</strong></p>
 
@@ -63,6 +70,15 @@
   <li><a href="https://warwick.ac.uk/fac/sci/statistics/news/patw_summer_school/">P@W  Summer School - Recent Trends in Probability and Statistics</a>
     <ul>
       <li>University of Warwick</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="14---18-july">14 - 18 July</h3>
+<ul>
+  <li><a href="https://spa.pwr.edu.pl/">Stochastic Processes and their Applications</a>
+    <ul>
+      <li>University of Wrocław and Wrocław University of Science and Technology</li>
     </ul>
   </li>
 </ul>
