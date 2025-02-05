@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-01-28T13:28:45+00:00</updated><id>/feed.xml</id><title type="html">Leandro Chiarini</title><author><name>Leandro Chiarini</name></author><entry><title type="html">Events</title><link href="/events/2023/04/11/Events-2023-2024.html" rel="alternate" type="text/html" title="Events" /><published>2023-04-11T09:34:00+01:00</published><updated>2023-04-11T09:34:00+01:00</updated><id>/events/2023/04/11/Events-2023-2024</id><content type="html" xml:base="/events/2023/04/11/Events-2023-2024.html"><![CDATA[<p>Here is a quick list of events in the next year or so that I found interesting. This list reflects my personal preferences, but I think it might be useful to others.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-05T09:34:45+00:00</updated><id>/feed.xml</id><title type="html">Leandro Chiarini</title><author><name>Leandro Chiarini</name></author><entry><title type="html">Events</title><link href="/events/2023/04/11/Events-2023-2024.html" rel="alternate" type="text/html" title="Events" /><published>2023-04-11T09:34:00+01:00</published><updated>2023-04-11T09:34:00+01:00</updated><id>/events/2023/04/11/Events-2023-2024</id><content type="html" xml:base="/events/2023/04/11/Events-2023-2024.html"><![CDATA[<p>Here is a quick list of events in the next year or so that I found interesting. This list reflects my personal preferences, but I think it might be useful to others.</p>
 
 <p>Other places to find events:</p>
 <ul>
   <li><a href="https://imstat.org/meetings-calendar/">Institute for Mathematical Statistics</a></li>
+  <li><a href="https://www.appliedprobability.org/events">Applied Probability Trust</a></li>
   <li><a href="http://womeninprobability.org/Calendar.html">Women in Mathematics</a></li>
   <li><a href="https://people.math.rochester.edu/faculty/cmlr/advice/">Carl Muller Webpage</a></li>
-  <li><a href="https://www.appliedprobability.org/events">Applied Probability Trust</a></li>
 </ul>
 
-<p><strong>Last updated: 28/01/2025</strong></p>
+<p><strong>Last updated: 05/02/2025</strong></p>
 
 <h2 id="2025">2025</h2>
 
@@ -53,6 +53,15 @@
   <li><a href="https://secure.math.ubc.ca/Links/ssprob25/index.php">PIMS-CRM Summer School in Probability</a>
     <ul>
       <li>PIMS</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="30-june---4-july">30 June - 4 July</h3>
+<ul>
+  <li><a href="https://sites.google.com/view/random-geometric-structures/home">Random Geometric Structures and Statistical Physics</a>
+    <ul>
+      <li>Part of the thematic program: <a href="https://sites.google.com/uniroma1.it/excellence-department-mmsp/mmsp-th-periods">Statistical Mechanics and Non Equilibrium Processes</a></li>
     </ul>
   </li>
 </ul>
