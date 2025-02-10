@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-05T09:34:45+00:00</updated><id>/feed.xml</id><title type="html">Leandro Chiarini</title><author><name>Leandro Chiarini</name></author><entry><title type="html">Events</title><link href="/events/2023/04/11/Events-2023-2024.html" rel="alternate" type="text/html" title="Events" /><published>2023-04-11T09:34:00+01:00</published><updated>2023-04-11T09:34:00+01:00</updated><id>/events/2023/04/11/Events-2023-2024</id><content type="html" xml:base="/events/2023/04/11/Events-2023-2024.html"><![CDATA[<p>Here is a quick list of events in the next year or so that I found interesting. This list reflects my personal preferences, but I think it might be useful to others.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2025-02-10T12:31:51+00:00</updated><id>/feed.xml</id><title type="html">Leandro Chiarini</title><author><name>Leandro Chiarini</name></author><entry><title type="html">Events</title><link href="/events/2023/04/11/Events-2023-2024.html" rel="alternate" type="text/html" title="Events" /><published>2023-04-11T09:34:00+01:00</published><updated>2023-04-11T09:34:00+01:00</updated><id>/events/2023/04/11/Events-2023-2024</id><content type="html" xml:base="/events/2023/04/11/Events-2023-2024.html"><![CDATA[<p>Here is a quick list of events in the next year or so that I found interesting. This list reflects my personal preferences, but I think it might be useful to others.</p>
 
 <p>Other places to find events:</p>
 <ul>
@@ -8,7 +8,7 @@
   <li><a href="https://people.math.rochester.edu/faculty/cmlr/advice/">Carl Muller Webpage</a></li>
 </ul>
 
-<p><strong>Last updated: 05/02/2025</strong></p>
+<p><strong>Last updated: 10/02/2025</strong></p>
 
 <h2 id="2025">2025</h2>
 
@@ -17,6 +17,15 @@
   <li><a href="https://sites.google.com/view/winterschoolsapienza/home">Winter school on Statistical Mechanics, Nonequilibrium Processes and Probability</a>
     <ul>
       <li>University of Rome La Sapienza</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="4-march">4 March</h2>
+<ul>
+  <li><a href="">Probability in the North East Workshop</a>
+    <ul>
+      <li>Sheffield</li>
     </ul>
   </li>
 </ul>
@@ -30,11 +39,29 @@
   </li>
 </ul>
 
+<h3 id="31-may---2-april">31 May - 2 April</h3>
+<ul>
+  <li><a href="https://www.eurandom.tue.nl/event/algebra-meets-probability/">Algebra meets probability</a>
+    <ul>
+      <li>Eurandom</li>
+    </ul>
+  </li>
+</ul>
+
 <h3 id="31-may---4-april">31 May - 4 April</h3>
 <ul>
   <li><a href="https://www2.mathematik.tu-darmstadt.de/~stochastik/SpringSchool2025/">UK Easter Probability Meeting</a>
     <ul>
       <li>Durham University</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="7---9-april">7 - 9 April</h3>
+<ul>
+  <li><a href="https://sites.google.com/rug.nl/words2025/home">Workshop on Random Structures</a>
+    <ul>
+      <li>University of Groningen</li>
     </ul>
   </li>
 </ul>
