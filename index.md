@@ -17,7 +17,5 @@ Prior to my position in Durham, I was a PostDoc Researcher Associate in the <a h
 
 <p>
 
-
-
-I recently co-organised the <a href="https://www.maths.dur.ac.uk/symposia/115/">Durham Symposium of
-	Mathematics 2024</a>.
+Until mid August, I am part of the  <a href="https://www.mathematics.uni-bonn.de/him/programs/current-trimester-program/probalilistic-methods-in-quantum-field-theory">"Probabilistic methods in quantum field theory" Trimester Program</a> at the <a href="https://www.mathematics.uni-bonn.de/him">Hausdorff Research Institute for Mathematics</a>. During this period, I am co-organising the <a href="https://math-events.uni-bonn.de/event/421/">Research Seminar Series</a>.
+ 
