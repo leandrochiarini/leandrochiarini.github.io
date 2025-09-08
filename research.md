@@ -3,7 +3,7 @@ layout: page
 title: Research
 ---
 
-**Research interests**: Singular random fields, interacting particle systems, growth models and long-range processes.
+**Research interests**: Singular random fields, non-monotone behaviour, occupation fields, self-organised criticality.
 
 # Submitted articles
 C, L.; Cipriani, A; Rapoport, A; Ruszel, W _"Fermionic Gaussian free field structure in the Abelian sandpile model and uniform spanning tree"_.
