@@ -6,6 +6,10 @@ title: Research
 **Research interests**: Singular random fields, non-monotone behaviour, occupation fields, self-organised criticality.
 
 # Submitted articles
+C, L.; Powell, E. _"Sharp barrier estimates for Bessel bridges"_.
+Submitted
+[arxiv](https://arxiv.org/abs/2511.13416)
+
 C, L.; Cipriani, A; Rapoport, A; Ruszel, W _"Fermionic Gaussian free field structure in the Abelian sandpile model and uniform spanning tree"_.
 Submitted
 [arxiv](https://arxiv.org/abs/2309.08349) 
