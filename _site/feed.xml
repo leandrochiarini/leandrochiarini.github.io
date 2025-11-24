@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-11-20T10:31:37-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Leandro Chiarini</title><author><name>Leandro Chiarini</name></author><entry><title type="html">Useful latex packages and scripts</title><link href="http://localhost:4000/latex/2025/02/10/Useful.html" rel="alternate" type="text/html" title="Useful latex packages and scripts" /><published>2025-02-10T13:52:00-03:00</published><updated>2025-02-10T13:52:00-03:00</updated><id>http://localhost:4000/latex/2025/02/10/Useful</id><content type="html" xml:base="http://localhost:4000/latex/2025/02/10/Useful.html"><![CDATA[<p>This is a simple list of some latex packages that I found very useful
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-11-24T14:32:39-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Leandro Chiarini</title><author><name>Leandro Chiarini</name></author><entry><title type="html">Useful latex packages and scripts</title><link href="http://localhost:4000/latex/2025/02/10/Useful.html" rel="alternate" type="text/html" title="Useful latex packages and scripts" /><published>2025-02-10T13:52:00-03:00</published><updated>2025-02-10T13:52:00-03:00</updated><id>http://localhost:4000/latex/2025/02/10/Useful</id><content type="html" xml:base="http://localhost:4000/latex/2025/02/10/Useful.html"><![CDATA[<p>This is a simple list of some latex packages that I found very useful
 and took surprisingly long to hear about. Those are mostly well known,
 but it can be useful in case you never heard of them before.</p>
 
@@ -16,13 +16,13 @@ That is, instead of writing <code class="language-plaintext highlighter-rouge">L
 <h3 id="latexpand"><a href="https://ctan.org/pkg/latexpand?lang=en">Latexpand</a></h3>
 <p>I often find it useful to split articles in between multiple files. This is also very useful when using <a href="2022-05-29-Git-for-mathematicians.html">Git</a>.</p>
 
-<h3 id="latexindent"><a href="https://ctan.org/pkg/latexindent?lang=en">Latexindent</a></h3>
-<p>A <code class="language-plaintext highlighter-rouge">pearl</code> script that automatically indents full latex file.</p>
-
 <p>However, when submitting the paper to an journal or latex, I can be
 annoying to have to deal with multiple files. This is where
 <code class="language-plaintext highlighter-rouge">latexpand</code> comes in, it creates a single file “flat” of your article,
 so that it is all contained in a single .tex file, ready to submit.</p>
+
+<h3 id="latexindent"><a href="https://ctan.org/pkg/latexindent?lang=en">Latexindent</a></h3>
+<p>A <code class="language-plaintext highlighter-rouge">pearl</code> script that automatically indents full latex file.</p>
 
 <h3 id="mindmaps-with-tutorial"><a href="https://latexdraw.com/mind-map-latex-tutorial/">Mindmaps with tutorial</a></h3>
 
