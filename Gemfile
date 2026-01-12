@@ -44,3 +44,5 @@ gem "json"
 gem "sassc"
 
 # source "https://rubygems.org"
+
+gem "csv", "~> 3.3"
