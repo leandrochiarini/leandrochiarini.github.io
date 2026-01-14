@@ -8,6 +8,8 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 4.3.1"
+# gem "jekyll"
+# gem "jekyll", "~> 4.4"
 
 #
 # gem “jekyll”, github: “jekyll/jekyll”, ref: “refs/pull/9248/head”
@@ -46,3 +48,5 @@ gem "sassc"
 # source "https://rubygems.org"
 
 gem "csv", "~> 3.3"
+
+# gem 'jekyll-spoiler', '~> 1.0'

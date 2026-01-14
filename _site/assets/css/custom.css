@@ -1,0 +1,20 @@
+/* --- Citation toggle styled to match Beautiful Jekyll links --- */
+
+span.cite-toggle {
+  cursor: pointer;
+  color: var(--link-col, #008aff); /* Beautiful Jekyll fallback */
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+/* Hover/focus behaves like theme links */
+span.cite-toggle:hover,
+span.cite-toggle:focus {
+  border-bottom-color: currentColor;
+}
+
+/* Optional: keyboard accessibility */
+span.cite-toggle:focus {
+  outline: none;
+}

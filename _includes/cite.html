@@ -1,0 +1,10 @@
+<span class="cite-toggle"
+      data-target="bibtex-{{ include.id }}">
+  cite
+</span>
+
+<div id="bibtex-{{ include.id }}" class="bibtex-box" hidden>
+  <pre><code class="language-bibtex">
+{{ include.bibtex | strip | escape }}
+  </code></pre>
+</div>
