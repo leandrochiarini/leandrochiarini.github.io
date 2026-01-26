@@ -157,3 +157,9 @@ Here is a list of the webpages of my co-authors who are still in academia:
 [E Powell](https://sites.google.com/view/ellenpowell),
 [W M Ruszel](https://www.uu.nl/staff/WMRuszel),
 [A Stauffer](https://sites.google.com/site/alexandrestauffer/home).
+
+
+
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
+<script src="{{ '/assets/js/custom.js' | relative_url }}"></script>

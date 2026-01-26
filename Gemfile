@@ -48,5 +48,3 @@ gem "sassc"
 # source "https://rubygems.org"
 
 gem "csv", "~> 3.3"
-
-# gem 'jekyll-spoiler', '~> 1.0'
