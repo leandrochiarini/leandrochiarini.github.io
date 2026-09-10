@@ -12,6 +12,21 @@ self-organised criticality,
 statistical mechanics.
 
 # Submitted articles
+- Barros, E.; C., L.; Jara, M. _"Second-order fields for stochastic partial differential equations"_. 
+Submitted
+	- [arxiv](https://arxiv.org/abs/2609.09540v1) - {% include cite.html id="chiarini2026"
+   bibtex='
+@misc{barros2026secondorderfieldsstochasticpartial,
+      title={Second-order fields for stochastic partial differential equations}, 
+      author={Eldon Barros and Leandro Chiarini and Milton Jara},
+      year={2026},
+      eprint={2609.09540},
+      archivePrefix={arXiv},
+      primaryClass={math.PR},
+      url={https://arxiv.org/abs/2609.09540}, 
+}
+' %}
+
 - Ayuso Ventura, I. ; C., L. ;  Helmuth, T.;  Powell, E. _"Imry-Ma phenomenon for the hard-core model on Z2"_.
 Submitted
 	- [arxiv](https://arxiv.org/abs/2601.05798v1) - {% include cite.html id="chiarini2026"
