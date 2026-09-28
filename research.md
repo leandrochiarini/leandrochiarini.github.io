@@ -165,7 +165,7 @@ Stochastic Processes and their Applications (2021)
 I had the opportunity to work with many talented people.
 Here is a list of the webpages of my co-authors who are still in academia:
 [I Ayuso Ventura](https://ireneayusoventura.github.io/),
-[Eldon Barros](https://scholar.google.com/citations?user=BO6_SpMAAAAJ&hl=en),
+[Eldon Barros](https://sites.google.com/view/eldon-barros),
 [A Cipriani](https://sites.google.com/site/aciprian41/),
 [M Jara](https://scholar.google.com/citations?user=cRw4qpkAAAAJ&hl=en),
 [T Helmuth](https://www.tylerhelmuth.net/),
