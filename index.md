@@ -4,7 +4,7 @@ title:
 ---
 
 
-I am a _Research Fellow_ at the [Institute of Mathematics and Statistics at the University of São Paulo](https://www.ime.usp.br/en/home/) in part of the [Stochastic Modelling thematic project](https://www.ime.usp.br/~gprob/) funded by [Fapesp](https://fapesp.br/).
+I am a _Research Fellow_ at the [Institute of Mathematics and Statistics at the University of São Paulo](https://www.ime.usp.br/en/home/) as part of the [Stochastic Modelling thematic project](https://www.ime.usp.br/~gprob/) funded by [Fapesp](https://fapesp.br/).
 
 From Nov 2026 to Nov 2027, I am scheduled to be a _Visiting Research Associate_ in the [Department of Mathematics of King's College London](https://www.kcl.ac.uk/mathematics). This will be funded through   [Fapesp](https://fapesp.br/), as part of its [BEPE program](https://fapesp.br/bolsas/bepe).
 
