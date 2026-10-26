@@ -12,6 +12,21 @@ self-organised criticality,
 statistical mechanics.
 
 # Submitted articles
+- Cattani, L.; C., L.; Cipriani, A. "Avalanches of the Abelian sandpile on the hierarchical lattice". Submitted.
+	- [arxiv](https://arxiv.org/abs/2610.32687v1) - {% include cite.html id="chiarini2026"
+   bibtex='
+@misc{cattani2026avalanchesabeliansandpilehierarchical,
+      title={Avalanches of the Abelian sandpile on the hierarchical lattice}, 
+      author={Luca Cattani and Leandro Chiarini and Alessandra Cipriani},
+      year={2026},
+      eprint={2610.32687},
+      archivePrefix={arXiv},
+      primaryClass={math.PR},
+      url={https://arxiv.org/abs/2610.32687}, 
+}
+' %}
+
+
 - Barros, E.; C., L.; Jara, M. _"Second-order fields for stochastic partial differential equations"_. 
 Submitted
 	- [arxiv](https://arxiv.org/abs/2609.09540v1) - {% include cite.html id="chiarini2026"
@@ -43,7 +58,7 @@ Submitted
 ' %}
 
 
-- C, L.; Powell, E. _"Sharp barrier estimates for Bessel bridges"_.
+- C., L.; Powell, E. _"Sharp barrier estimates for Bessel bridges"_.
 Submitted
 	- [arxiv](https://arxiv.org/abs/2511.13416) - {% include cite.html id="chiarini2025"
    bibtex='
@@ -59,7 +74,7 @@ Submitted
 ' %}
 
 
-- C, L.; Cipriani, A; Rapoport, A; Ruszel, W _"Fermionic Gaussian free field structure in the Abelian sandpile model and uniform spanning tree"_.
+- C., L.; Cipriani, A.; Rapoport, A.; Ruszel, W. _"Fermionic Gaussian free field structure in the Abelian sandpile model and uniform spanning tree"_.
 Submitted
 	- [arxiv](https://arxiv.org/abs/2309.08349) - {% include cite.html id="chiarini2023b"
    bibtex='
@@ -76,7 +91,7 @@ Submitted
 
 
 # Published articles
-- C, L.; Jara, M.; Ruszel, W. _"Fractional Edgeworth expansions for one-dimensional heavy-tailed random variables and applications"_.
+- C., L.; Jara, M.; Ruszel, W. _"Fractional Edgeworth expansions for one-dimensional heavy-tailed random variables and applications"_.
 Electronic Journal of Probability (2023)
 	- [arxiv](https://arxiv.org/abs/2101.01609) - [journal](https://projecteuclid.org/journals/electronic-journal-of-probability/volume-28/issue-none/Fractional-Edgeworth-expansions-for-one-dimensional-heavy-tailed-random-variables/10.1214/23-EJP996.full) - {% include cite.html id="chiarini2023a"
    bibtex='
@@ -92,7 +107,7 @@ Electronic Journal of Probability (2023)
 ' %}
 
 
-- C, L. Ruszel, W. _"Stochastic homogenization of Gaussian fields on random media"_. 
+- C., L. Ruszel, W. _"Stochastic homogenization of Gaussian fields on random media"_. 
 Annales Henri Poincaré (2023)
 	 - [arxiv](https://arxiv.org/abs/2201.12013) - [journal](https://link.springer.com/article/10.1007/s00023-023-01347-5) - {% include cite.html
    id="chiarini2023"
@@ -109,7 +124,7 @@ Annales Henri Poincaré (2023)
 }
 ' %}
 
-- C, L.; Stauffer, A. "Absorbing-state phase transition and activated random walks with unbounded capacities". 
+- C., L.; Stauffer, A. "Absorbing-state phase transition and activated random walks with unbounded capacities". 
 ALEA, Lat. Am. J. Probab. Math. Stat. (2022)
 	 - [arxiv](https://arxiv.org/abs/2108.03038) - [journal](https://alea.impa.br/articles/v19/19-46.pdf) - {% include cite.html
    id="chiarini2022a"
@@ -125,7 +140,7 @@ ALEA, Lat. Am. J. Probab. Math. Stat. (2022)
 ' %}
 
 
-- C, L.; Landim, C. _"Schauder Estimates for Fractional Laplacians and non-local, one-dimensional singular SPDEs"_.
+- C., L.; Landim, C. _"Schauder Estimates for Fractional Laplacians and non-local, one-dimensional singular SPDEs"_.
 SIAM J. Math. Anal. SIAM Journal on Mathematical Analysis (2022)
 	- [arxiv](https://arxiv.org/abs/1912.11869) - [journal](https://epubs.siam.org/doi/abs/10.1137/20M1382829) - {% include cite.html
    id="chiarini2022"
@@ -145,7 +160,7 @@ SIAM J. Math. Anal. SIAM Journal on Mathematical Analysis (2022)
 
 
 
-- C, L.; Jara, M.; Ruszel, W. _"Constructing fractional Gaussian fields from long-range divisible sandpiles on the torus"_.
+- C., L.; Jara, M.; Ruszel, W. _"Constructing fractional Gaussian fields from long-range divisible sandpiles on the torus"_.
 Stochastic Processes and their Applications (2021)
 	- [arxiv](https://arxiv.org/abs/1808.06078) - [journal](https://www.sciencedirect.com/science/article/pii/S0304414921000995) - {% include cite.html
    id="chiarini2021"
@@ -166,6 +181,7 @@ I had the opportunity to work with many talented people.
 Here is a list of the webpages of my co-authors who are still in academia:
 [I Ayuso Ventura](https://ireneayusoventura.github.io/),
 [Eldon Barros](https://sites.google.com/view/eldon-barros),
+Luca Cattani,
 [A Cipriani](https://sites.google.com/site/aciprian41/),
 [M Jara](https://scholar.google.com/citations?user=cRw4qpkAAAAJ&hl=en),
 [T Helmuth](https://www.tylerhelmuth.net/),
